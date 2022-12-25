@@ -2,4 +2,4 @@
 
 
 ![](made/caveman.gif)
-![](made/cavemanDone.jpg)
+![](made/cavemanDone.jpg =75%x)
