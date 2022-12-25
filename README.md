@@ -7,6 +7,8 @@ Currently the fastest pure python implementation of potrace as far as I know (nu
 ![](made/caveman.gif) <img src="made/cavemanDone.jpg" height="569">
 
 # Crux of the code
+The function getLastStraight() in image2vec.py is where the magic happens.
+
 ```python
     lessThanMax = angles < np.maximum.accumulate(anglesMax,axis=1)
     greaterThanMin = angles > np.minimum.accumulate(anglesMin,axis=1)
