@@ -1,4 +1,4 @@
 # ShadowArt
 
 
-![](made/caveman.gif) | ![](made/cavemanDone.jpg) | <img src="made/cavemanDone.jpg" height="200">
+![](made/caveman.gif) <img src="made/cavemanDone.jpg" height="350">
