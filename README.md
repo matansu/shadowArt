@@ -1,8 +1,8 @@
 # ShadowArt
 
-A fun art project using laser cutting.
+An art project using laser cutting.
 I used my own python implementation of Potrace for tracing the image into svg.
-My Potrace implementation is numpy vectorized, currently the fastest python implementation of Potrace that doesn't run the potrace C executable.
+My Potrace implementation is numpy vectorized, currently the fastest python implementation of Potrace that doesn't wrap the potrace C executable.
 
 ![](made/caveman.gif) <img src="made/cavemanDone.jpg" height="569">
 
