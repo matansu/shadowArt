@@ -7,7 +7,8 @@ My Potrace implementation is numpy vectorized, currently the fastest python impl
 ![](made/caveman.gif) <img src="made/cavemanDone.jpg" height="569">
 
 # Crux of the code
-The function getLastStraight() in image2vec.py is where the magic happens.
+The functions getLastStraight() and calc3Dirs() in image2vec.py are where the magic happens in terms of numpy vectorization.
+It's also the first time I got to use np.maximum.accumulate():
 
 ```python
     lessThanMax = angles < np.maximum.accumulate(anglesMax,axis=1)
